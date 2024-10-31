@@ -158,3 +158,101 @@ monthConversions = {
 # Challenge: Print all even numbers from 1 to 100 using a for loop.
 
 # Loop through numbers 1 to 100
+####################################################################################
+#while loops = execute some code WHILE some conditions remain true
+
+# name = input("Enter your name ")
+# #interation = loop
+# #interate (verb) = looping over something
+# while name == "":
+#     print("You did not enter your name. ")
+#     name = input("Enter you name: ")
+# print(f"Hello {name}.")
+
+# age = int(input("enter your age "))
+
+# while age < 0:
+#     print("age cannot be negative")
+#     age = int(input("enter your age "))
+# print(f"you are {age} years old")
+
+# food = input("Enter a food you like (q to quit): ")
+
+# while not food == "q":
+#     print(f"you like {food}.")
+#     food = input("Enter another food you like (q to quit): ")
+
+# print("bye!")
+
+# num = int(input("Enter a # between 1 - 10: "))
+
+# while num < 1 or num > 10:
+#     print(f"{num} is not valid")
+#     num = int(input("Enter a # between 1 - 10: "))
+
+# print(f"your number is {num}")
+###############################################################################
+#for loops = execute a block of code a fixed number of times.
+#           you can iterate over a range, sequence, string, etc.
+
+# for x in range (1, 11):
+#     print(x)
+# #counting to ten but we add eleven cause thats the first number that's excluded
+#     #for loops works for a limit, but while loops work forever
+
+# print("HAPPY NEW YEAR")
+
+# for x in reversed(range(1, 11)):
+#     print(x)
+# #counting to ten but we add eleven cause thats the first number that's excluded
+#     #for loops works for a limit, but while loops work forever
+
+# print("HAPPY NEW YEAR")
+
+# credit_card = "1234-5678-9012-3456"
+
+# for x in credit_card:
+#     print(x)
+
+#continue means skip over
+# for x in range (1,21):
+#     if x == 13:
+#         continue
+#     else:
+#         print(x)
+
+#break stops loop
+# for x in range (1,21):
+    # if x == 13:
+    #     break
+    # else:
+    #     print(x)
+
+#create a list of famous horror movie characters
+# horror_characters= ["Freddy Krueger", "Jason Voorhees","Micheal Myers", "Pennywise", "Chucky" ]
+# #iterate through the list and print each character
+
+# for character in horror_characters:
+#     if character == "Jason Voorhees":
+#         continue
+# print(character)
+
+# if character == "Micheal Myers":
+#         character = "Dracula"
+# print(character)
+
+# if character == "Pennywise":
+#         character = "Ghostface"
+# print(character)
+
+horror_movies = ["Terrifer", "Smile", "Halloween", "The Conjuring", "Scream", "The Exorcist"]
+for movie in horror_movies:
+    if movie == "Terrifer":
+        break
+print(horror_movies)
+
+for movie in horror_movies:
+    if movie == "Smile":
+        movie = "Annabelle"
+print(horror_movies)
+
